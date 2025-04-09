@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EcoTech Solutions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="slider">
+    <!-- Tela 1 -->
+    <section class="slide active">
+      <div class="image-box">
+        <img src="image/tela1.png" alt="Tela 1" />
+      </div>
+      <div class="content">
+        <h1><span class="highlight">EcoTech Solutions</span>: a maior e melhor plataforma de reciclagem de eletrônicos do Brasil!</h1>
+        <p class="description">
+          Descubra a simplicidade e eficiência enquanto exploramos juntos o que nosso aplicativo tem a oferecer.
+        </p>
+        <div class="footer">
+          <div class="indicators">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="nextSlide()">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tela 2 -->
+    <section class="slide">
+      <div class="image-box">
+        <img src="image/tela2.png" alt="Tela 2" />
+      </div>
+      <div class="content">
+        <h1>Explore os recursos poderosos do <span class="highlight">EcoTech Solutions</span></h1>
+        <p class="description">
+          Desde a organização intuitiva até as funcionalidades avançadas, estamos comprometidos em proporcionar a você a melhor experiência possível.
+        </p>
+        <div class="footer">
+          <div class="indicators">
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="prevSlide()">←</button>
+            <button class="nav-button" onclick="nextSlide()">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tela 3 -->
+    <section class="slide">
+      <div class="image-box">
+        <img src="image/tela3.png" alt="Homem com celular sentado no chão" />
+      </div>
+      <div class="content">
+        <h1>
+          Chegamos ao final do nosso tour, mas a jornada está apenas <span class="highlight">começando</span> para você
+        </h1>
+        <p class="description">
+          Cadastre-se agora e descubra como podemos tornar cada dia mais fácil e eficiente para você!
+        </p>
+        <div class="footer">
+          <div class="indicators">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot active"></span>
+          </div>
+          <div class="nav-buttons">
+            <button class="nav-button" onclick="prevSlide()">←</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
