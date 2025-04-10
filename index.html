@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>EcoTech</title>
+  <title>EcoTech Solutions</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,6 +21,7 @@
         <div class="footer">
           <div class="indicators">
             <span class="dot active"></span>
+            <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot"></span>
           </div>
@@ -45,6 +46,7 @@
           <div class="indicators">
             <span class="dot"></span>
             <span class="dot active"></span>
+            <span class="dot"></span>
             <span class="dot"></span>
           </div>
           <div class="nav-buttons">
@@ -72,10 +74,50 @@
             <span class="dot"></span>
             <span class="dot"></span>
             <span class="dot active"></span>
+            <span class="dot"></span>
           </div>
           <div class="nav-buttons">
             <button class="nav-button" onclick="prevSlide()">←</button>
+            <button class="nav-button" onclick="nextSlide()">→</button>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tela 4 - Login -->
+    <section class="slide login-screen">
+      <div class="login-card">
+        <div class="login-header">
+          <div class="login-icon">🔒</div>
+          <h2>Acesso EcoTech</h2>
+          <p>Entre para começar sua jornada sustentável</p>
+        </div>
+        <form>
+          <input type="email" placeholder="E-mail" required>
+          <div class="password-wrapper">
+            <input type="password" id="passwordInput" placeholder="Senha" required>
+            <span class="eye-icon" id="eyeIcon">
+              <span id="eyeOpen">👁</span>
+              <span id="eyeClosed" class="hidden">✖</span>
+            </span>
+          </div>
+          <div class="options">
+            <label><input type="checkbox"> Lembrar de mim</label>
+            <a href="#">Esqueceu a senha?</a>
+          </div>
+          <button type="button" class="btn-primary">Entrar</button>
+          <button type="button" class="btn-secondary">Criar conta</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div class="indicators">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot active"></span>
+        </div>
+        <div class="nav-buttons">
+          <button class="nav-button" onclick="prevSlide()">←</button>
         </div>
       </div>
     </section>
